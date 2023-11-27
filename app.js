@@ -1,6 +1,20 @@
-/************  NAVIGATION BAR ****************/
-/************  NAVIGATION BAR ****************/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************  NAVIGATION BAR ****************/
 const links = document.querySelectorAll("nav li");
 
 iconX.addEventListener("click",() => {
@@ -16,24 +30,49 @@ links.forEach((link) => {
         nav.classList.remove("active");
     });
 });
-
 /***************END OF NAV BAR ****************/
 
 
-// Select the button
-const btn = document.querySelector(".btn-toggle");
-// Select the stylesheet <link>
-const theme = document.querySelector("#theme-link");
 
-// Listen for a click on the button
-btn.addEventListener("click", function() {
-  // If the current URL contains "ligh-theme.css"
-  if (theme.getAttribute("href") == "light-theme.css") {
-    // ... then switch it to "dark-theme.css"
-    theme.href = "dark-theme.css";
-  // Otherwise...
-  } else {
-    // ... switch it to "light-theme.css"
-    theme.href = "light-theme.css";
+
+
+
+
+/************  Dark Mode Toggle ****************/
+const page = document.querySelector(".page");
+const toggle = page.querySelector(".theme-switch__checkbox");
+// const toggleIcon = page.querySelector(".toggle-icon");
+
+// set theme and localStorage on page load
+setCheckedState();
+
+function setCheckedState() {
+  // checks if localStorage has a "checked" value set at all
+  if (!(localStorage.checked === undefined)) {
+    // if it does, it sets the state of the toggle accordingly
+    toggle.checked = isTrue(localStorage.getItem("checked"));
+    // after setting the toggle state, the theme is adjusted according to the checked state
+    toggleTheme();
   }
-});
+}
+
+function toggleTheme() {
+  // Toggle theme based on state of checkbox
+  if (toggle.checked) {
+    page.classList.replace("light", "dark");
+  } else {
+    page.classList.replace("dark", "light");
+  }
+  // set the value of the "checked" key in localStorage
+  localStorage.setItem("checked", toggle.checked);
+}
+
+
+function isTrue(value) {
+  // convert string to boolean
+  return value === "true";
+}
+
+// Toggle theme any time the state of the checkbox changes
+toggle.addEventListener("change", toggleTheme);
+/**********************************************/
