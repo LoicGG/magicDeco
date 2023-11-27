@@ -8,6 +8,7 @@
     box-sizing:border-box;
     font-size: 14px;
     font-family: 'Ephesis', cursive;
+    color: var(--black-color);
 }
 
 a, a:visited {
@@ -22,47 +23,7 @@ li {
     list-style: none;
 }
 
-:root {
-    --white-color: rgb(255, 255, 255);
-    --black-color: rgb(0, 0, 0);
-    --header-color:rgb(225, 190, 165);
-    --nav-color: #A5B9B9;
-    --hero-color: rgb(225, 190, 165);
-    --section1-color: rgb(160, 180, 175);
-    --section2-color: rgb(225, 225, 215);
-    --section3-color: rgb(135, 150, 145);
-    --section4-color: rgb(225, 190, 165);
-    --footer-color: rgb(45, 65, 65);
-    --ul-color: rgb(165, 185, 185);
-}
 
-.light {
-    --white-color: rgb(255, 255, 255);
-    --black-color: rgb(0, 0, 0);
-    --header-color:rgb(225, 190, 165);
-    --nav-color: #A5B9B9;
-    --hero-color: rgb(225, 190, 165);
-    --section1-color: rgb(160, 180, 175);
-    --section2-color: rgb(225, 225, 215);
-    --section3-color: rgb(135, 150, 145);
-    --section4-color: rgb(225, 190, 165);
-    --footer-color: rgb(45, 65, 65);
-    --ul-color: rgb(165, 185, 185);
-}
-
-.dark {
-    --white-color: rgb(0, 0, 0);
-    --black-color: rgb(255, 255, 255);
-    --header-color:rgb(225, 190, 165);
-    --nav-color: #A5B9B9;
-    --hero-color: rgb(225, 190, 165);
-    --section1-color: rgb(160, 180, 175);
-    --section2-color: rgb(225, 225, 215);
-    --section3-color: rgb(135, 150, 145);
-    --section4-color: rgb(225, 190, 165);
-    --footer-color: rgb(45, 65, 65);
-    --ul-color: rgb(165, 185, 185);
-}
 /***********************************************/
 /******************  BRAYWEB    ****************/
 /******************  SECTIONS   ****************/
@@ -119,6 +80,7 @@ footer {
     background-color: var(--footer-color)
 }
 
+/***********************************************/
 /***********************************************/
 /***************    NAV BAR   ******************/
 /***********************************************/
@@ -183,10 +145,11 @@ ul li a {
     filter: drop-shadow(2px 1px 0px rgba(0, 0, 0, 0.25)) drop-shadow(-1px -1px 1.5px rgba(0, 0, 0, 0));
 }
 /***********************************************/
+/***********************************************/
 /***************** Media Query *****************/
 /******************* >850px ********************/
 /***********************************************/
-
+/***********************************************/
 
 @media (min-width: 850px) {
     ul {
@@ -211,10 +174,11 @@ ul li a {
     
 }
 
-
-
-/**BUTTONS**/
-
+/***********************************************/
+/***********************************************/
+/*******************BUTTONS*********************/
+/***********************************************/
+/***********************************************/
 nav ul li {
     display: flex;
     align-items: center;

@@ -12,9 +12,11 @@
 
 
 
-
-
-/************  NAVIGATION BAR ****************/
+/***********************************************/
+/***********************************************/
+/**************  NAVIGATION BAR ****************/
+/***********************************************/
+/***********************************************/
 const links = document.querySelectorAll("nav li");
 
 iconX.addEventListener("click",() => {
@@ -30,15 +32,21 @@ links.forEach((link) => {
         nav.classList.remove("active");
     });
 });
-/***************END OF NAV BAR ****************/
+/***********************************************/
+/***********************************************/
+/****************END OF NAV BAR ****************/
+/***********************************************/
+/***********************************************/
 
 
 
 
-
-
-
+/***********************************************/
+/***********************************************/
 /************  Dark Mode Toggle ****************/
+/***********************************************/
+/***********************************************/
+
 const page = document.querySelector(".page");
 const toggle = page.querySelector(".theme-switch__checkbox");
 // const toggleIcon = page.querySelector(".toggle-icon");
@@ -67,7 +75,6 @@ function toggleTheme() {
   localStorage.setItem("checked", toggle.checked);
 }
 
-
 function isTrue(value) {
   // convert string to boolean
   return value === "true";
@@ -75,4 +82,8 @@ function isTrue(value) {
 
 // Toggle theme any time the state of the checkbox changes
 toggle.addEventListener("change", toggleTheme);
-/**********************************************/
+
+/***********************************************/
+/***********************************************/
+/***********************************************/
+/***********************************************/
