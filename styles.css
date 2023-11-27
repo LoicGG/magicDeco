@@ -100,23 +100,23 @@ ul {
     display: block; /*none;*/
     position: fixed;
     flex-direction: column;
-    width: 40%;
-    top: 30vh;
+    width: 45%;
+    top: 15vh;
     left: 100%;
     justify-content: space-between; /* Ce flex-end positionne à gauche les liens du menu */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 20px;
     padding: 0.2rem;
     background-color: rgb(165, 185, 185);
 }
 ul li a {
-    font-size: 3rem;
-    border: 1px solid black;
+    font-size: 1.75rem;
+    /* border: 1px solid black; */
     border-radius: 15px;
 }
 
 .active ul {
-    left: 60%;
+    left: 55%;
     transition: 200ms;
 }
 
@@ -126,6 +126,8 @@ ul li a {
     font-size: 3rem;
     padding: 1rem;
     filter: drop-shadow(5px 3px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-1px -1px 1.5px rgba(0, 0, 0, 0));
+    overflow: hidden;
+    z-index: -1;
 }
 
 #iconX::before {
@@ -157,7 +159,7 @@ ul li a {
     }
     ul li a {
         font-size: 2rem;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         border-radius: 15px;
     }
     
@@ -166,3 +168,37 @@ ul li a {
     }
     
 }
+
+
+
+/**BUTTONS**/
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+  }
+  
+  nav ul li:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+  
+  nav ul li:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  nav ul li:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }

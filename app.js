@@ -11,8 +11,6 @@ addEventListener("scroll",() => {
     nav.classList.remove("active");
 });
 
-
-
 links.forEach((link) => {
     link.addEventListener('click', () => {
         nav.classList.remove("active");
@@ -20,3 +18,5 @@ links.forEach((link) => {
 });
 
 /***************END OF NAV BAR ****************/
+
+
