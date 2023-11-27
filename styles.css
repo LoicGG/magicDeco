@@ -100,9 +100,9 @@ ul {
     display: block; /*none;*/
     position: fixed;
     flex-direction: column;
-    width: 25%;
-    top: 15vh;
-    left: 100%;
+    width: 200px;
+    top: 30vh;
+    right: -100%;
     justify-content: space-between; /* Ce flex-end positionne à gauche les liens du menu */
     border: 1px solid black;
     border-radius: 20px;
@@ -116,14 +116,14 @@ ul li a {
 }
 
 .active ul {
-    left: 75%;
-    transition: 200ms;
+    right: .5vw;
+    transition: 200ms ease-out;
 }
 
 #iconX {
     display: flex;
     position: relative;
-    font-size: 3rem;
+    font-size: 5rem;
     padding: 1rem;
     filter: drop-shadow(5px 3px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-1px -1px 1.5px rgba(0, 0, 0, 0));
     overflow: hidden;
@@ -137,12 +137,12 @@ ul li a {
 #iconX:active,
 #iconX:hover {
     left: 1px;
-    font-size: 3rem;
+    font-size: 5rem;
     filter: drop-shadow(2px 1px 0px rgba(0, 0, 0, 0.25)) drop-shadow(-1px -1px 1.5px rgba(0, 0, 0, 0));
 }
 /***********************************************/
 /***************** Media Query *****************/
-/******************* >650px ********************/
+/******************* >850px ********************/
 /***********************************************/
 
 
