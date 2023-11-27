@@ -160,7 +160,7 @@ ul li a {
         justify-content: space-around;
         border: none;
         border-radius: 20px;
-        background-color: var(--ul-color);
+        background-color: var(--nav-color);
     }
     ul li a {
         font-size: 2rem;
@@ -187,7 +187,7 @@ nav ul li {
     cursor: pointer;
     width: 150px;
     height: 50px;
-    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    background-image: var(--strange-color);
     border-radius: 30px;
     border: 1px solid #8F9092;
     transition: all 0.2s ease;

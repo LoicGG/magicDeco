@@ -228,33 +228,33 @@
     --section3-color: rgb(135, 150, 145);
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
-    --ul-color: rgb(165, 185, 185);
+    --strange-color:linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
 }
 
 .light {
     --white-color: rgb(255, 255, 255);
     --black-color: rgb(0, 0, 0);
     --header-color:rgb(225, 190, 165);
-    --nav-color: #A5B9B9;
+    --nav-color: rgb(165, 185, 185);
     --hero-color: rgb(225, 190, 165);
     --section1-color: rgb(160, 180, 175);
     --section2-color: rgb(225, 225, 215);
     --section3-color: rgb(135, 150, 145);
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
-    --ul-color: rgb(165, 185, 185);
+    --strange-color:linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
 }
 
 .dark {
     --white-color: rgb(0, 0, 0);
     --black-color: rgb(255, 255, 255);
-    --header-color:rgb(225, 190, 165);
-    --nav-color: #A5B9B9;
+    --header-color:rgb(24, 24, 147);
+    --nav-color:rgb(45, 46, 64);
     --hero-color: rgb(225, 190, 165);
     --section1-color: rgb(160, 180, 175);
     --section2-color: rgb(225, 225, 215);
     --section3-color: rgb(135, 150, 145);
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
-    --ul-color: rgb(165, 185, 185);
+    --strange-color:linear-gradient(to top, #000000 0%, #414141 80%, #000000 100%);
 }
