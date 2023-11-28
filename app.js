@@ -76,3 +76,7 @@ toggle.addEventListener("change", toggleTheme);
 /***********************************************/
 /***********************************************/
 /***********************************************/
+
+
+/** Il faudrait une fonction qui permette que n'importe quel click ou touch ailleurs 
+ * que le sur le menu ferme le menu **/
