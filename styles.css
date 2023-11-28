@@ -34,7 +34,7 @@ header {
 }
 
 nav {
-    height: 15vh;
+    height: 15%;
     background: var(--nav-color);
     box-shadow: 0px 2px 6.9px 0px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -88,13 +88,13 @@ footer {
 /*LOGO*/
 
 .logo img {
-    width: calc(100px + 1rem); /* COMMENT LUI DONNER UNE TAILLE QUI VA SAGRANDIR AVEC LE VIEWSCREEN */
+    width: calc(100px + 2rem); /* COMMENT LUI DONNER UNE TAILLE QUI VA SAGRANDIR AVEC LE VIEWSCREEN */
     filter: drop-shadow(5px 3px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-1px -1px 1.5px rgba(0, 0, 0, 0));
     /* border: 1px solid black; */
 }
 
 .logo img:hover {
-     width: calc(100px + 1rem);
+     width: calc(100px + 2rem);
      filter: drop-shadow(2px 1px 0px rgba(0, 0, 0, 0.25)) drop-shadow(-1px -1px 1.5px rgba(0, 0, 0, 0));
      position:relative;
      left: 1px;
@@ -105,7 +105,7 @@ ul {
     position: fixed;
     flex-direction: column;
     width: 200px;
-    top: 30vh;
+    top: 25%;
     right: -100%;
     justify-content: space-between; /* Ce flex-end positionne à gauche les liens du menu */
     border: 1px solid black;

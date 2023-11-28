@@ -6,7 +6,7 @@
 /***********************************************/
 
 
-:root {
+/* :root {
     --white-color: rgb(255, 255, 255);
     --black-color: rgb(0, 0, 0);
     --header-color:rgb(225, 190, 165);
@@ -18,7 +18,7 @@
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
     --strange-color:linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
-}
+} */
 
 .light {
     --white-color: rgb(255, 255, 255);
