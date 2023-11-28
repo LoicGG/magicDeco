@@ -157,6 +157,7 @@ ul li a {
     
     #iconX {
         display: none;
+        visibility: hidden;
     }
     
 }
