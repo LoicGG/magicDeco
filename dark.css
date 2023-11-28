@@ -32,13 +32,18 @@
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
     --strange-color:linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    --FCFCFC-color: #FCFCFC;
+    --D6D7D9-color: #D6D7D9;
+    --CECFD1-color: #CECFD1;
+    --FEFEFE-color: #FEFEFE;
+    --neufx3-color: #999;
 }
 
 .dark {
     --white-color: rgb(0, 0, 0);
     --black-color: rgb(255, 255, 255);
-    --header-color:rgb(24, 24, 147);
-    --nav-color:rgb(45, 46, 64);
+    --header-color:rgb(6, 6, 77);
+    --nav-color:rgb(92, 92, 92);
     --hero-color: rgb(225, 190, 165);
     --section1-color: rgb(160, 180, 175);
     --section2-color: rgb(225, 225, 215);
@@ -46,4 +51,9 @@
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
     --strange-color:linear-gradient(to top, #000000 0%, #414141 80%, #000000 100%);
+    --FCFCFC-color: #0e0a0a;
+    --D6D7D9-color: #D6D7D9;
+    --CECFD1-color: #232323;
+    --FEFEFE-color: #FEFEFE;
+    --neufx3-color: #999;
 }
