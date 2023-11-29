@@ -17,6 +17,7 @@
 
 #iconX::before {
     content: "\2630";
+    cursor: pointer;
 }
 
 #iconX:active,
