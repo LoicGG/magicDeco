@@ -76,3 +76,4 @@ toggle.addEventListener("change", toggleTheme);
 /** Il faudrait une fonction qui permette que n'importe quel click ou touch ailleurs 
  * que le sur le menu ferme le menu **/
 // et il faudrait aussi une petite croix en haut du menu ul pour fermer explicitement ce menu
+

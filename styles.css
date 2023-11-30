@@ -50,7 +50,7 @@ nav {
     align-items: center;
 }
 .hero {
-    height: 100vh;
+    height: 10vh;
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     background-color: var(--hero-color);
@@ -61,6 +61,26 @@ nav {
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--section1-color);
 }
+/**************************************/
+
+
+
+
+/*3213 × 2529    test*/
+#section1 .exemple1 {
+    height: 240px;
+    width: 300px;
+    background-image: var(--image-Sect1Div1);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border: 2px solid black;
+    margin: 2rem;
+}
+
+
+
+
+/**************************************/
 #section2 {
     height: 100vh;
     width: 100%;
