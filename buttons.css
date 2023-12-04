@@ -20,8 +20,13 @@
     cursor: pointer;
 }
 
+/* #iconX::after {
+    content: "\2730";
+    cursor: pointer;
+} */
+
 #iconX:active,
-#iconX:hover {
+#iconX:hover, {
     content: "\2715";
     left: 1px;
     font-size: 3rem;

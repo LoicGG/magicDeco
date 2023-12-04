@@ -35,7 +35,7 @@ li {
 /***********************************************/
 
 header {
-    height: 15vh;
+    height: 5vh;
     background-color: var(--header-color);
 }
 
@@ -50,7 +50,7 @@ nav {
     align-items: center;
 }
 .hero {
-    height: 10vh;
+    height: 60vh;
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     background-color: var(--hero-color);
@@ -131,14 +131,15 @@ ul {
     position: fixed;
     flex-direction: column;
     width: 200px;
-    top: 25%;
+    top: 15%;
     right: -100%;
     justify-content: space-between; /* Ce flex-end positionne à gauche les liens du menu */
     border: 1px solid black;
     border-radius: 20px;
     padding: 0.2rem;
-    background-color: var(--white-color);
+    background-color: var(--nav-color);
 }
+
 ul li a {
     font-size: 1.75rem;
     /* border: 1px solid black; */
