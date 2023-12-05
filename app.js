@@ -4,6 +4,7 @@
 /**************  NAVIGATION BAR ****************/
 /***********************************************/
 /***********************************************/
+
 const links = document.querySelectorAll("nav li");
 
 iconX.addEventListener("click",() => {
