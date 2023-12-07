@@ -1,3 +1,15 @@
+// Get the menu nav to add active to
+var volet = document.getElementsByClassName("volet");
+
+// Get the button that opens the menu
+var iconX = document.getElementsById("iconX");
+
+// Get the span that closes modal
+var span = document.getElementsByClassName("close");
+
+// Get the modal
+
+
 
 /***********************************************/
 /***********************************************/
