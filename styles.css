@@ -50,11 +50,31 @@ nav {
     align-items: center;
 }
 .hero {
-    height: 60vh; 
+    height: 70vh; 
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     background-color: var(--hero-color);
+    display: flex;
+    justify-content: center;
+    
 }
+
+#vacances {
+    background-color: var(--ciel-color);
+    width: 60dvh;
+    height: 60dvh;
+    display: block;
+    margin-top: 1rem;
+    border-radius: 50%;
+    border: 38px solid var(--nav-color);
+    
+}
+
+
+
+
+
+
 #section1 {
     height: 100vh;
     width: 100%;
