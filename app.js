@@ -1,5 +1,12 @@
+/***********************************************/
+/***********************************************/
+/**************  NAVIGATION BAR ****************/
+/***********************************************/
+/***********************************************/
+
+
 // Get the menu nav to add active to
-var volet = document.getElementsByClassName("volet");
+var volet = document.getElementById("volet");
 
 // Get the button that opens the menu
 var iconX = document.getElementById("iconX");
@@ -7,27 +14,29 @@ var iconX = document.getElementById("iconX");
 // Get the span that closes modal
 var span = document.getElementsByClassName("close");
 
-// Get the modal
-
+// When the user clicks on the button, open the menu
+iconX.onclick = function () {
+  volet.style.right = "0";
+}
 
 
 /***********************************************/
-/***********************************************/
+/****************  ANCIENNE  *******************/
 /**************  NAVIGATION BAR ****************/
 /***********************************************/
 /***********************************************/
 
-const links = document.querySelectorAll("nav li");
+// const links = document.querySelectorAll("nav li");
 
-iconX.addEventListener("click",() => {
-  nav.classList.toggle("active");
-});
+// iconX.addEventListener("click",() => {
+//   nav.classList.toggle("active");
+// });
 
-links.forEach((link) => {
-    link.addEventListener('click', () => {
-        nav.classList.remove("active");
-    });
-});
+// links.forEach((link) => {
+//     link.addEventListener('click', () => {
+//         nav.classList.remove("active");
+//     });
+// });
 /***********************************************/
 /***********************************************/
 /*************** END OF NAV BAR ****************/

@@ -35,7 +35,7 @@ li {
 /***********************************************/
 
 header {
-    height: 15vh;
+    height: 12dvh;
     background-color: var(--header-color);
 }
 
@@ -50,7 +50,7 @@ nav {
     align-items: center;
 }
 .hero {
-    height: 10vh; /*remettre a 60 après avoir touché l'image de la fenetre*/
+    height: 60vh; 
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     background-color: var(--hero-color);
@@ -62,9 +62,6 @@ nav {
     background-color: var(--section1-color);
 }
 /**************************************/
-
-
-
 
 /*3213 × 2529    test*/
 #section1 .exemple1 {
@@ -126,7 +123,7 @@ footer {
      left: 1px;
 }
 /****************** UL MENU FONCTION ***********************/
-ul {
+#volet {
     display: block; /*none;*/
     position: fixed;
     flex-direction: column;
@@ -146,10 +143,7 @@ ul li a {
     border-radius: 15px;
 }
 
-.active ul {
-    right: .5vw;
-    transition: 200ms ease-out;
-}
+
 
 
 /***********************************************/
@@ -160,7 +154,7 @@ ul li a {
 /***********************************************/
 
 @media (min-width: 850px) {
-    ul {
+    #volet {
         display: flex; /*none;*/
         position: static;
         flex-direction: row;
@@ -180,7 +174,9 @@ ul li a {
         display: none;
         visibility: hidden;
     }
-    
+    header {
+        height: 5dvh;
+    }
 }
 /***********************************************/
 /***********************************************/
