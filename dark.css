@@ -47,7 +47,7 @@
 .dark {
     --white-color: rgb(0, 0, 0);
     --black-color: rgb(255, 255, 255);
-    --header-color:rgb(6, 6, 77);
+    --header-color:rgb(0, 0, 0);
     --nav-color:rgb(92, 92, 92);
     --hero-color: rgb(225, 190, 165);
     --section1-color: rgb(160, 180, 175);
@@ -61,6 +61,6 @@
     --CECFD1-color: #232323;
     --FEFEFE-color: #FEFEFE;
     --neufx3-color: #999;
-    --ciel-color: rgb(10, 10, 100);
+    --ciel-color: rgb(138, 138, 138);
     --image-Sect1Div1: url(content/Tranche\ 2.webp);
 }

@@ -50,23 +50,27 @@ nav {
     align-items: center;
 }
 .hero {
-    height: 70vh; 
+    height: 65dvh; 
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     background-color: var(--hero-color);
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
 #vacances {
     background-color: var(--ciel-color);
-    width: 60dvh;
-    height: 60dvh;
-    display: block;
-    margin-top: 1rem;
+    width: 80dvw;
+    height: 80dvw;
+    max-height: 60dvh;
+    max-width: 60dvh;
+    display: flex;
+    /* margin-top: 1rem; */
     border-radius: 50%;
     border: 38px solid var(--nav-color);
+    
     
 }
 
@@ -195,7 +199,7 @@ ul li a {
         visibility: hidden;
     }
     header {
-        height: 5dvh;
+        height: 10dvh;
     }
 }
 /***********************************************/
