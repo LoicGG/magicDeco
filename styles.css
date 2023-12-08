@@ -56,6 +56,9 @@ nav {
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     background-image: var(--image-heroBg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     /* background-color: var(--hero-color); */
     display: flex;
     justify-content: center;
