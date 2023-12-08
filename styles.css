@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Ephesis', cursive;
     color: var(--black-color);
 }
@@ -35,6 +35,24 @@ h2 {
 
 }
 
+
+.slidein {
+    animation-duration: 800ms;
+    animation-name: slidein;
+    animation-delay: 1s;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 /***********************************************/
 
