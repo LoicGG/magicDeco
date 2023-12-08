@@ -86,7 +86,11 @@ nav {
 .s-two {
     position: relative;
     bottom: 10dvh;
+    font-size: 4rem;
 }
+
+
+
 
 
 #section1 {
@@ -212,7 +216,7 @@ ul li a {
         height: 10dvh;
     }
     .sentence {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
 /***********************************************/
