@@ -48,6 +48,8 @@ nav {
     position: sticky;/**/
     top: 0; /**/
     align-items: center;
+    overflow: hidden;
+    z-index: 1;
 }
 .hero {
     height: 65dvh; 
@@ -57,7 +59,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
 
 #vacances {
@@ -70,13 +72,21 @@ nav {
     /* margin-top: 1rem; */
     border-radius: 50%;
     border: 38px solid var(--nav-color);
-    
-    
 }
 
+.sentence {
+    font-size: 3rem;
+}
 
+.s-one {
+    position: relative;
+    top: 15dvh;
+}
 
-
+.s-two {
+    position: relative;
+    bottom: 10dvh;
+}
 
 
 #section1 {
@@ -200,6 +210,9 @@ ul li a {
     }
     header {
         height: 10dvh;
+    }
+    .sentence {
+        font-size: 4rem;
     }
 }
 /***********************************************/
