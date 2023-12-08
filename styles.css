@@ -55,7 +55,8 @@ nav {
     height: 65dvh; 
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
-    background-color: var(--hero-color);
+    background-image: var(--image-heroBg);
+    /* background-color: var(--hero-color); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,10 +89,6 @@ nav {
     bottom: 10dvh;
     font-size: 4rem;
 }
-
-
-
-
 
 #section1 {
     height: 100vh;
@@ -215,8 +212,11 @@ ul li a {
     header {
         height: 10dvh;
     }
-    .sentence {
-        font-size: 5rem;
+    .s-one {
+        font-size: 4rem;
+    }
+    .s-two {
+        font-size: 6rem;
     }
 }
 /***********************************************/
