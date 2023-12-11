@@ -4,6 +4,12 @@
 /***************** MAIN STYLES *****************/
 /***********************************************/
 /***********************************************/
+
+/*
+font-family: 'Ephesis', cursive;
+font-family: 'Miltonian', serif;
+*/
+
 *, body {
     margin: 0;
     padding: 0;
@@ -39,18 +45,19 @@ h2 {
 .slidein {
     animation-duration: 800ms;
     animation-name: slidein;
-    animation-delay: 1s;
   }
   
   @keyframes slidein {
     from {
       margin-left: 100%;
       width: 100%;
+      opacity: 0;
     }
   
     to {
       margin-left: 0%;
       width: 100%;
+      opacity: 1;
     }
   }
 
@@ -84,7 +91,7 @@ nav {
     height: 65dvh; 
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
-    background-image: var(--image-heroBg);
+    /* background-image: var(--image-heroBg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -95,16 +102,28 @@ nav {
     flex-direction: column;
 }
 
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 #vacances {
     background-color: var(--ciel-color);
-    width: 80dvw;
-    height: 80dvw;
-    max-height: 60dvh;
-    max-width: 60dvh;
+    width: 60dvw;
+    height: 60dvw;
+    max-height: 50dvh;
+    max-width: 50dvh;
     display: flex;
     /* margin-top: 1rem; */
     border-radius: 50%;
-    border: 38px solid var(--nav-color);
+    border: 16px solid var(--nav-color);
 }
 
 .sentence {
@@ -114,12 +133,18 @@ nav {
 .s-one {
     position: relative;
     top: 15dvh;
+    color: var(--white-color);
+    font-family: 'Miltonian', serif;
+
 }
 
 .s-two {
     position: relative;
     bottom: 10dvh;
     font-size: 4rem;
+    color: var(--white-color);
+    font-family: 'Miltonian', serif;
+
 }
 
 #section1 {
@@ -127,13 +152,38 @@ nav {
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--section1-color);
+    
 }
+
+
+
 
 .exemple1 > p {
     font-size: 1.5rem;
 }
 
 /**************************************/
+.presentoir {
+    display: flex;
+    width : 100%;
+    height: auto;
+    margin: 0;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cardreader {
+    display: block;
+    width: 200px;
+    border: 1px solid red;
+    margin: 0.5rem;
+
+    
+}
+
+
 
 /*3213 × 2529    test*/
 /* #section1 .exemple1 {
@@ -176,7 +226,7 @@ footer {
 }
 
 /***********************************************/
-/***********************************************/
+/**************** RESPONSIVE *******************/
 /***************    NAV BAR   ******************/
 /***********************************************/
 /***********************************************/
