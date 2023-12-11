@@ -46,17 +46,21 @@ h2 {
     animation-duration: 800ms;
     animation-name: slidein;
   }
-  
+  .slidein2 {
+    animation-duration: 800ms;
+    animation-delay: 400ms;
+    animation-name: slidein;
+  }
   @keyframes slidein {
     from {
       margin-left: 100%;
-      width: 100%;
+      width: 80%;
       opacity: 0;
     }
   
     to {
       margin-left: 0%;
-      width: 100%;
+      width: 80%
       opacity: 1;
     }
   }
@@ -106,7 +110,7 @@ nav {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -130,9 +134,15 @@ nav {
     font-size: 3rem;
 }
 
+.sentence img {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
 .s-one {
     position: relative;
-    top: 15dvh;
+    top: 20dvh;
     color: var(--white-color);
     font-family: 'Miltonian', serif;
 
@@ -140,7 +150,7 @@ nav {
 
 .s-two {
     position: relative;
-    bottom: 10dvh;
+    bottom: 15dvh;
     font-size: 4rem;
     color: var(--white-color);
     font-family: 'Miltonian', serif;
@@ -152,7 +162,9 @@ nav {
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--section1-color);
-    
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -173,13 +185,15 @@ nav {
     justify-content: center;
 
 }
-
+.cardreader p {
+    font-size: 2rem;
+}
 .cardreader {
     display: block;
     width: 200px;
     border: 1px solid red;
     margin: 0.5rem;
-
+    font-size: 2rem;
     
 }
 
