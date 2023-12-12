@@ -65,6 +65,13 @@ h2 {
     }
   }
 
+  @keyframes move {
+    0%   { left: 0px; }
+    30%  { rotate: 10deg; } 
+    60%  { rotate: -10deg;}
+    100% { left: 0px; }
+  }
+
 /***********************************************/
 
 /***********************************************/
@@ -127,13 +134,17 @@ nav {
     /* margin-top: 1rem; */
     border-radius: 50%;
     border: 16px solid var(--nav-color);
+    z-index: 0;
 }
 
 #vacances img {
-    width: auto;
-    height: 30vh;
+    height: 15vh;
     margin: auto;
-    display: block;
+    position: relative;
+    animation-name: move;
+    animation-iteration-count: 2;
+    animation-duration: 3s;
+    z-index: -1;
 }
 
 .sentence img {
@@ -146,6 +157,7 @@ nav {
 .s-one {
     position: relative;
     top: 15dvh;
+    z-index: 1;
 }
 
 .s-two {
@@ -308,8 +320,9 @@ ul li a {
         display: none;
         visibility: hidden;
     }
-    header {
-        height: 10dvh;
+    #vacances img {
+        height: 25vh;
+        margin: auto;
     }
     .s-one {
         font-size: 4rem;
