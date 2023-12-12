@@ -9,11 +9,12 @@
     position: relative;
     font-size: 3rem;
     padding: 1rem;
-    margin-right: 20px;
+    margin-right: 1rem;
+    margin-top: 2.6rem;
     filter: drop-shadow(5px 3px 2px rgba(0, 0, 0, 0.25)) drop-shadow(-1px -1px 1.5px rgba(0, 0, 0, 0));
     overflow: hidden;
     z-index: -1;
-    color: var(--white-color);
+    color: white;
     
 }
 
@@ -106,14 +107,13 @@ nav ul li:focus {
 #iconDayNight {
     position: absolute;
     right: 0;
-    bottom: 4rem;
+    top: 1rem;
     display: flex;
     justify-content: end;
     padding: 1rem;
 }
 
 .theme-switch {
- 
     --toggle-size: 12px;
     /* the size is adjusted using font-size,
        this is not transform scale,
@@ -310,27 +310,5 @@ nav ul li:focus {
 /***********************************************/
 /***********************************************/
 /************* FIN BuTTON DARKMODE *************/
-/***********************************************/
-/***********************************************/
-
-
-
-/***********************************************/
-/***********************************************/
-/***************** MEDIA QUERY *****************/
-/******************* >850px ********************/
-/***********************************************/
-/***********************************************/
-
-/* @media (min-width: 850px) {
-    .theme-switch {
-        --toggle-size: 12px;
-    };
-    
-} */
-/***********************************************/
-/***********************************************/
-/************* FIN DE MEDIA QUERY **************/
-/***********************************************/
 /***********************************************/
 /***********************************************/

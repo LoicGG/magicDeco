@@ -38,7 +38,7 @@ font-family: 'Miltonian', serif;
     --section3-color: rgb(135, 150, 145);
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
-    --strange-color:linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    --strange-color:linear-gradient(to top, #D8D9DB 0%, #b39559 80%, #fcfc83 100%);
     --FCFCFC-color: #FCFCFC;
     --D6D7D9-color: #D6D7D9;
     --CECFD1-color: #CECFD1;
@@ -47,6 +47,7 @@ font-family: 'Miltonian', serif;
     --ciel-color: rgb(44, 152, 220);
     --image-Sect1Div1: url(content/Tranche\ 1.webp);
     --image-heroBg: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(content/houseinterior.jpg);
+    --image-magic: url(content/magic.png);
 }
 
 .dark {
@@ -60,7 +61,7 @@ font-family: 'Miltonian', serif;
     --section3-color: rgb(135, 150, 145);
     --section4-color: rgb(225, 190, 165);
     --footer-color: rgb(45, 65, 65);
-    --strange-color:linear-gradient(to top, #343434 0%, #414141 80%, #3c3c3c 100%);
+    --strange-color:linear-gradient(to top, #000000 0%, #636262 100%);
     --FCFCFC-color: #0e0a0a;
     --D6D7D9-color: #D6D7D9;
     --CECFD1-color: #232323;
@@ -69,4 +70,5 @@ font-family: 'Miltonian', serif;
     --ciel-color: rgb(13, 61, 98);
     --image-Sect1Div1: url(content/Tranche\ 2.webp);
     --image-heroBg: url(content/houseinteriordark.jpg);
+    --image-magic: url(content/magicDARK.png);
 }

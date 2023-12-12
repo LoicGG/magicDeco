@@ -45,13 +45,14 @@ h2 {
 .slidein {
     animation-duration: 800ms;
     animation-name: slidein;
-  }
-  .slidein2 {
+}
+.slidein2 {
     animation-duration: 800ms;
     animation-delay: 400ms;
     animation-name: slidein;
-  }
-  @keyframes slidein {
+}
+
+@keyframes slidein {
     from {
       margin-left: 100%;
       width: 80%;
@@ -63,14 +64,14 @@ h2 {
       width: 80%
       opacity: 1;
     }
-  }
+}
 
-  @keyframes move {
-    0%   { left: 0px; }
-    30%  { rotate: 10deg; } 
-    60%  { rotate: -10deg;}
-    100% { left: 0px; }
-  }
+@keyframes move {
+    0%   { rotate: 0deg; }
+    30%  { rotate: 15deg; } 
+    60%  { rotate: -15deg;}
+    100% { rotate: 0deg; }
+}
 
 /***********************************************/
 
@@ -81,11 +82,6 @@ h2 {
 
 /***********************************************/
 
-header {
-    height: 12dvh;
-    background-color: var(--header-color);
-}
-
 nav {
     height: 15%;
     background: var(--nav-color);
@@ -95,7 +91,7 @@ nav {
     top: 0; /**/
     align-items: center;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
 }
 .hero {
     height: 65dvh; 
@@ -112,6 +108,10 @@ nav {
     flex-direction: column;
 }
 
+#magic {
+    content: var(--image-magic);
+}
+
 #background-video {
     width: 100vw;
     height: 100vh;
@@ -125,11 +125,10 @@ nav {
 }
 
 #vacances {
-    background-color: var(--ciel-color);
     width: 60dvw;
     height: 60dvw;
-    max-height: 50dvh;
-    max-width: 50dvh;
+    max-height: 50vh;
+    max-width: 50vh;
     display: flex;
     /* margin-top: 1rem; */
     border-radius: 50%;
@@ -143,7 +142,7 @@ nav {
     margin: auto;
     position: relative;
     animation-name: move;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
     animation-duration: 3s;
     z-index: -1;
 }
@@ -176,9 +175,6 @@ nav {
     text-align: center;
 }
 
-
-
-
 .exemple1 > p {
     font-size: 1.5rem;
 }
@@ -205,22 +201,6 @@ nav {
     font-size: 2rem;
     
 }
-
-
-
-/*3213 × 2529    test*/
-/* #section1 .exemple1 {
-    height: 240px;
-    width: 300px;
-    background-image: var(--image-Sect1Div1);
-    background-repeat: no-repeat;
-    background-size: 300px;
-    border: 2px solid black;
-    margin: 2rem;
-} */
-
-
-
 
 /**************************************/
 #section2 {
@@ -253,7 +233,7 @@ footer {
 /***************    NAV BAR   ******************/
 /***********************************************/
 /***********************************************/
-/******************** LOGO *********************/
+/******************* LOGO **********************/
 
 .logo img {
     width: calc(100px + 2rem); /* COMMENT LUI DONNER UNE TAILLE QUI VA SAGRANDIR AVEC LE VIEWSCREEN */
@@ -288,18 +268,14 @@ ul li a {
     /* border: 1px solid black; */
     border-radius: 15px;
 }
-
-
-
-
 /***********************************************/
 /***********************************************/
 /***************** MEDIA QUERY *****************/
-/******************* >850px ********************/
+/******************* >950px ********************/
 /***********************************************/
 /***********************************************/
 
-@media (min-width: 850px) {
+@media (min-width: 950px) {
     #volet {
         display: flex; /*none;*/
         position: static;
@@ -308,7 +284,7 @@ ul li a {
         justify-content: space-around;
         border: none;
         border-radius: 20px;
-        background-color: var(--nav-color);
+        background-color: transparent;
     }
     ul li a {
         font-size: 2rem;
