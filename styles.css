@@ -82,7 +82,6 @@ header {
 nav {
     height: 15%;
     background: var(--nav-color);
-    box-shadow: 0px 2px 6.9px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     justify-content: space-between;
     position: sticky;/**/
@@ -130,31 +129,28 @@ nav {
     border: 16px solid var(--nav-color);
 }
 
-.sentence {
-    font-size: 3rem;
+#vacances img {
+    width: auto;
+    height: 30vh;
+    margin: auto;
+    display: block;
 }
 
 .sentence img {
-    width: 100%;
+    width: 70vw;
+    max-width: 70vh;
     height: auto;
     text-align: center;
 }
 
 .s-one {
     position: relative;
-    top: 20dvh;
-    color: var(--white-color);
-    font-family: 'Miltonian', serif;
-
+    top: 15dvh;
 }
 
 .s-two {
     position: relative;
     bottom: 15dvh;
-    font-size: 4rem;
-    color: var(--white-color);
-    font-family: 'Miltonian', serif;
-
 }
 
 #section1 {
@@ -270,7 +266,7 @@ footer {
     border: 1px solid black;
     border-radius: 20px;
     padding: 0.2rem;
-    background-color: var(--nav-color);
+    background-color: var(--FEFEFE-color);
 }
 
 ul li a {
