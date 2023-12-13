@@ -113,7 +113,7 @@ nav {
 }
 
 #magic {
-    content: var(--image-magic);
+    content: url(content/Magic.webp);
     width: 70vw;
     max-width: 70vh;
     height: auto;
