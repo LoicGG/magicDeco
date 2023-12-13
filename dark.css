@@ -47,7 +47,7 @@ font-family: 'Miltonian', serif;
     --ciel-color: rgb(44, 152, 220);
     --image-Sect1Div1: url(content/Tranche\ 1.webp);
     --image-heroBg: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(content/houseinterior.jpg);
-    --image-magic: url(content/magic.png);
+    --image-magic: url(content/Magic.webp);
 }
 
 .dark {
