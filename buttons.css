@@ -15,7 +15,8 @@
     overflow: hidden;
     z-index: -1;
     color: white;
-    
+    content: "\2630";
+    cursor: pointer; 
 }
 
 #iconX::before {

@@ -118,23 +118,11 @@ nav {
     height: auto;
     text-align: center;
     position: relative;
-    top: 12dvh;
     z-index: 1;
     animation-duration: 2s;
     animation-name: move;
 }
 
-
-#bucket {
-    display: block;
-    height: 30vh;
-    margin: auto;
-    position: relative;
-    animation-name: move;
-    animation-iteration-count: infinite;
-    animation-duration: 1s;
-    z-index: -1;
-}
 
 #deco {
     width: 60vw;
@@ -142,7 +130,6 @@ nav {
     height: auto;
     text-align: center;
     position: relative;
-    bottom: 12dvh;
 }
 
 /**************************************/
