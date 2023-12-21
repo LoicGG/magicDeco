@@ -19,6 +19,8 @@ iconX.onclick = function () {
   volet.style.right = "0";
 }
 
+
+
 // When menu's open and user clicks outside => closes menu
 window.addEventListener('click', function(e){
   if (!document.getElementById('volet').contains(e.target) && (!document.getElementById('iconX').contains(e.target))){

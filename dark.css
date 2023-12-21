@@ -49,6 +49,8 @@ font-family: 'Miltonian', serif;
     --image-heroBg: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(content/houseinterior.jpg);
     --image-magic: url(content/Magic.webp);
     --image-planches: url(content/planchesclaires.webp);
+    --specialiste-color: rgb(255, 255, 255);
+    --specialiste-background-color: rgba(165, 27, 27, 0.9);
 }
 
 .dark {
@@ -73,4 +75,6 @@ font-family: 'Miltonian', serif;
     --image-heroBg: url(content/houseinteriordark.jpg);
     --image-magic: url(content/magicDARK.webp);
     --image-planches: url(content/planchesfoncees.webp);
+    --specialiste-color: rgb(255, 255, 255);
+    --specialiste-background-color: rgb(60, 59, 59);
 }
