@@ -16,7 +16,6 @@ font-family: 'Miltonian', serif;
     box-sizing:border-box;
     font-size: 16px;
     font-family: 'Ephesis', cursive;
-    color: var(--black-color);
 }
 
 a, a:visited {
@@ -42,6 +41,8 @@ h2 {
 
 h3 {
     font-size: 32px;
+    color: rgb(0, 0, 0);
+    font-family: "Miltonian";
 }
 
 /***********************************************/
@@ -89,7 +90,7 @@ nav {
     z-index: 2;
 }
 .hero {
-    height: 65dvh; 
+    height: auto; 
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     /* background-image: var(--image-heroBg); */
@@ -106,16 +107,17 @@ nav {
 #specialiste {
     color: var(--specialiste-color);
     background-color: var(--specialiste-background-color);
-    font-size: 28px;
+    font-size: 2em;
     border-radius: 20px;
     padding: 0%;
     line-height: 1;
-    width: 95%;
-    max-width: 700px;
+    width: 80vw;
     animation-name: slidein;
     animation-delay: 2s;
     font-family: 'Gill Sans';
     text-align: center;
+    margin-bottom: 1rem;
+
 }
 
 
@@ -188,7 +190,9 @@ nav {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-family: "roboto";
+
 }
 
 #section2 {

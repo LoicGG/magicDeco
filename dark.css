@@ -24,6 +24,16 @@ font-family: 'Miltonian', serif;
     --footer-color: rgb(45, 65, 65);
     --strange-color:linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
     --ciel-color: rgb(22,253,255);
+    --gold-color: linear-gradient(
+        to right,
+        #462523 0,
+               #cb9b51 22%, 
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+        );
 }
 
 
@@ -51,6 +61,16 @@ font-family: 'Miltonian', serif;
     --image-planches: url(content/planchesclaires.webp);
     --specialiste-color: rgb(255, 255, 255);
     --specialiste-background-color: rgba(165, 27, 27, 0.9);
+    --ecriture-parchemin: linear-gradient(
+        to right,
+        #462523 0,
+               #cb9b51 22%, 
+        #f6e27a 45%,
+        #f6f2c0 50%,
+        #f6e27a 55%,
+        #cb9b51 78%,
+        #462523 100%
+        );
 }
 
 .dark {
@@ -77,4 +97,5 @@ font-family: 'Miltonian', serif;
     --image-planches: url(content/planchesfoncees.webp);
     --specialiste-color: rgb(255, 255, 255);
     --specialiste-background-color: rgb(60, 59, 59);
+    --ecriture-parchemin: solid black;
 }
