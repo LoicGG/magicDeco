@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 32px;
 }
 
 /***********************************************/
@@ -184,8 +184,11 @@ nav {
     background-image: url(content/parchemin.webp);
     background-size: cover; 
     text-align: center;
-    padding: 1rem;
-    font-size: 22px;    
+    padding: 1rem;  
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 #section2 {
