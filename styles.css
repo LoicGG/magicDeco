@@ -42,7 +42,8 @@ h2 {
 h3 {
     font-size: 32px;
     color: rgb(0, 0, 0);
-    font-family: "Miltonian";
+    font-family: "tangerine";
+    font-size: 2.5rem;
 }
 
 /***********************************************/
@@ -109,7 +110,7 @@ nav {
     background-color: var(--specialiste-background-color);
     font-size: 2em;
     border-radius: 20px;
-    padding: 0%;
+    padding: 1rem;
     line-height: 1;
     width: 80vw;
     animation-name: slidein;
@@ -186,12 +187,13 @@ nav {
     background-image: url(content/parchemin.webp);
     background-size: cover; 
     text-align: center;
-    padding: 1rem;  
+    padding: 1rem;
+    border-radius: 30px; 
 }
 
 p {
     font-size: 1rem;
-    font-family: "roboto";
+    font-family: "arial";
 
 }
 
