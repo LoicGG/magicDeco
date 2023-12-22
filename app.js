@@ -16,7 +16,7 @@ var span = document.getElementsByClassName("close");
 
 // When the user clicks on the button, open the menu
 iconX.onclick = function () {
-  volet.style.right = "0";
+  volet.style.left = "0";
 }
 
 
@@ -24,7 +24,7 @@ iconX.onclick = function () {
 // When menu's open and user clicks outside => closes menu
 window.addEventListener('click', function(e){
   if (!document.getElementById('volet').contains(e.target) && (!document.getElementById('iconX').contains(e.target))){
-  volet.style.right = "-100%"; //the same code you've used to hide the menu
+  volet.style.left = "-100%"; //the same code you've used to hide the menu
 } 
 });
 

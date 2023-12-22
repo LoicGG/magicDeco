@@ -247,9 +247,9 @@ footer {
     display: block; /*none;*/
     position: fixed;
     flex-direction: column;
-    width: 200px;
+    width: 220px;
     top: 15%;
-    right: -100%;
+    left: -150%;
     justify-content: space-between; /* Ce flex-end positionne à gauche les liens du menu */
     border: 1px solid black;
     border-radius: 20px;
