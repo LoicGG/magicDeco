@@ -18,6 +18,7 @@
     cursor: pointer;
     background-color: var(--specialiste-background-color);
     border-radius: 10px;
+    margin-left: 1rem;
 }
 
 #iconX::before {
