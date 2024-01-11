@@ -110,7 +110,17 @@ toggle.addEventListener("change", toggleTheme);
  * que le sur le menu ferme le menu **/
 // et il faudrait aussi une petite croix en haut du menu ul pour fermer explicitement ce menu
 
+/***********************************************/
+/***********************************************/
+/****************SLIDER PHOTO*******************/
+/***********************************************/
+/***********************************************/
 const container = document.querySelector('.container');
 document.querySelector('.slider').addEventListener('input', (e) => {
   container.style.setProperty('--position', `${e.target.value}%`);
 })
+/***********************************************/
+/***********************************************/
+/***********************************************/
+/***********************************************/
+/***********************************************/
