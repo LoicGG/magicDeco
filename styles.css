@@ -307,7 +307,11 @@ footer {
     height: 15vh;
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
-    background-color: var(--footer-color)
+    background-color: var(--footer-color);
+}
+
+.footerText {
+    color: aliceblue;
 }
 
 /***********************************************/
