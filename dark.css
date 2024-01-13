@@ -71,6 +71,7 @@ font-family: 'Miltonian', serif;
         #cb9b51 78%,
         #462523 100%
         );
+    --footerText-Color: rgba(255, 255, 255, 1);
 }
 
 .dark {
@@ -98,4 +99,5 @@ font-family: 'Miltonian', serif;
     --specialiste-color: rgb(255, 255, 255);
     --specialiste-background-color: rgb(60, 59, 59);
     --ecriture-parchemin: solid black;
+    --footerText-Color: rgba(255, 255, 255, 1);
 }

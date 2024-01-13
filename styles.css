@@ -21,13 +21,16 @@ font-family: 'Miltonian', serif;
 a, a:visited {
     display: block;
     text-decoration: none;
-    color: var(--black-color);
-    padding: 1em;
+    /* color: var(--black-color); */
     text-align: center;/* Centrer les liens dans leur line item */
 }
 
 li {
     list-style: none;
+}
+/*Uniquement pour les liens du menu*/
+li a {
+        color: var(--black-color);
 }
 
 h2 {
@@ -311,7 +314,16 @@ footer {
 }
 
 .footerText {
-    color: aliceblue;
+    color: var(--footerText-Color);
+    font-weight: 100;
+    line-height: 1;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /***********************************************/
