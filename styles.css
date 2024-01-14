@@ -347,13 +347,13 @@ footer a:hover {
      left: 1px;
 }
 /****************** UL MENU FONCTION ***********************/
-#volet {
+#volet {                  /* JAVASCRIPT*/
     display: block; /*none;*/
     position: fixed;
     flex-direction: column;
     width: 220px;
     top: 15%;
-    left: -100%;
+    left: -100%;     /* left est repositionné à zéro sur un 'iconX.onclick' dans le fichier JAVASCRIPT*/
     justify-content: space-between; /* Ce flex-end positionne à gauche les liens du menu */
     border: 1px solid black;
     border-radius: 20px;

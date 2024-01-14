@@ -11,15 +11,10 @@ var volet = document.getElementById("volet");
 // Get the button that opens the menu
 var iconX = document.getElementById("iconX");
 
-// Get the span that closes modal
-var span = document.getElementsByClassName("close");
-
 // When the user clicks on the button, open the menu
 iconX.onclick = function () {
   volet.style.left = "0";
 }
-
-
 
 // When menu's open and user clicks outside => closes menu
 window.addEventListener('click', function(e){
@@ -27,35 +22,6 @@ window.addEventListener('click', function(e){
   volet.style.left = "-100%"; //the same code you've used to hide the menu
 } 
 });
-
-
-
-
-/***********************************************/
-/****************  ANCIENNE  *******************/
-/**************  NAVIGATION BAR ****************/
-/***********************************************/
-/***********************************************/
-
-// const links = document.querySelectorAll("nav li");
-
-// iconX.addEventListener("click",() => {
-//   nav.classList.toggle("active");
-// });
-
-// links.forEach((link) => {
-//     link.addEventListener('click', () => {
-//         nav.classList.remove("active");
-//     });
-// });
-/***********************************************/
-/***********************************************/
-/*************** END OF NAV BAR ****************/
-/***********************************************/
-/***********************************************/
-
-
-
 
 /***********************************************/
 /***********************************************/
@@ -124,3 +90,4 @@ document.querySelector('.slider').addEventListener('input', (e) => {
 /***********************************************/
 /***********************************************/
 /***********************************************/
+
