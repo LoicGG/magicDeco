@@ -359,6 +359,7 @@ footer a:hover {
     border-radius: 20px;
     padding: 0.1rem;
     background-color: var(--FEFEFE-color);
+    transition: 200ms;
 }
 
 ul li a {
