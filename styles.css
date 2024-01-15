@@ -216,10 +216,7 @@ img {
     max-width: 100%;
   }
 /*SLIDER DES PHOTOS AVANT-APRES*/
-.sliderContainer1,
-.sliderContainer2,
-.sliderContainer3 {
-}
+
 .container1 {
     height: 400px;
     width: 400px;
@@ -228,6 +225,7 @@ img {
     overflow: hidden;
     --position1: 50%;
     margin: 2rem;
+    border-radius: 50px;
 }
 
 .container2 {
@@ -246,7 +244,7 @@ img {
     place-content: center;
     position: relative;
     overflow: hidden;
-    --position2: 50%;
+    --position3: 50%;
     margin: 2rem;
 }
 
