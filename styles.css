@@ -160,7 +160,7 @@ nav {
 /**************************************/
 
 #section1 {
-    height: 30vh;
+    height: auto;
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--section2-color);
@@ -216,36 +216,47 @@ img {
     max-width: 100%;
   }
 /*SLIDER DES PHOTOS AVANT-APRES*/
+.exemple1,
+.exemple2,
+.exemple3 {
+    width: auto;
+    height: auto;
+
+}
 
 .container1 {
-    width: auto;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     place-content: center;
     position: relative;
     overflow: hidden;
     --position1: 50%;
     margin: 2rem;
     border-radius: 50px;
+    display: flex;
+    text-align: center;
 }
 
 .container2 {
-    width: auto;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     place-content: center;
     position: relative;
     overflow: hidden;
     --position2: 50%;
     margin: 2rem;
+    border-radius: 50px;
 }
 
 .container3 {
-    width: auto;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     place-content: center;
     position: relative;
     overflow: hidden;
     --position3: 50%;
     margin: 2rem;
+    border-radius: 50px;
 }
 
 .image-container1,
@@ -259,18 +270,16 @@ img {
 .slider-image1,
 .slider-image2,
 .slider-image3 {
-    width: auto;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     object-position: left;
-    
 }
 
 .image-before1 {
     position: absolute;
     inset: 0;
     width: var(--position1);
-    filter: grayscale(100%)    /*NOUBLIE PAS DE RETIRER LE FILTRE APRES*/
 }
 
 .image-before2 {
