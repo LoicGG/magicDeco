@@ -81,9 +81,9 @@ toggle.addEventListener("change", toggleTheme);
 /****************SLIDER PHOTO*******************/
 /***********************************************/
 /***********************************************/
-const container = document.querySelector('.container');
-document.querySelector('.slider').addEventListener('input', (e) => {
-  container.style.setProperty('--position', `${e.target.value}%`);
+const container = document.querySelector('.container1');
+document.querySelector('.slider1').addEventListener('input', (e) => {
+  container.style.setProperty('--position1', `${e.target.value}%`);
 })
 /***********************************************/
 /***********************************************/
@@ -91,3 +91,7 @@ document.querySelector('.slider').addEventListener('input', (e) => {
 /***********************************************/
 /***********************************************/
 
+const container2 = document.querySelector('.container2');
+document.querySelector('.slider2').addEventListener('input', (e) => {
+  container2.style.setProperty('--position2', `${e.target.value}%`);
+})
