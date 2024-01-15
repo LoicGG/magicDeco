@@ -218,8 +218,8 @@ img {
 /*SLIDER DES PHOTOS AVANT-APRES*/
 
 .container1 {
-    height: 400px;
-    width: 400px;
+    width: auto;
+    height: 200px;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -229,8 +229,8 @@ img {
 }
 
 .container2 {
-    height: 400px;
-    width: 400px;
+    width: auto;
+    height: 200px;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -239,8 +239,8 @@ img {
 }
 
 .container3 {
-    height: 400px;
-    width: 400px;
+    width: auto;
+    height: 200px;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -259,8 +259,8 @@ img {
 .slider-image1,
 .slider-image2,
 .slider-image3 {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: 200px;
     object-fit: cover;
     object-position: left;
     
