@@ -203,7 +203,8 @@ nav {
     background-size: cover; 
     text-align: center;
     padding: 1rem;
-    border-radius: 30px; 
+    border-radius: 30px;
+    filter: var(--filterParchment);
 }
 
 p {
@@ -222,7 +223,6 @@ img {
 .exemple3 {
     width: auto;
     height: auto;
-
 }
 
 .container1 {
@@ -234,6 +234,7 @@ img {
     --position1: 50%;
     margin: 2rem;
     border-radius: 50px;
+    border: 2px solid var(--white-color);
     display: flex;
     text-align: center;
 }
@@ -247,6 +248,8 @@ img {
     --position2: 50%;
     margin: 2rem;
     border-radius: 50px;
+    border: 2px solid var(--white-color);
+
 }
 
 .container3 {
@@ -258,6 +261,8 @@ img {
     --position3: 50%;
     margin: 2rem;
     border-radius: 50px;
+    border: 2px solid var(--white-color);
+
 }
 
 .image-container1,
@@ -309,24 +314,24 @@ img {
 }
 
 .slider1:focus-visible ~ .slider-button1 {
-    outline: 4px solid black;
+    outline: 2px var(--black-color);
     outline-offset: 0px;
 }
 .slider2:focus-visible ~ .slider-button2 {
-    outline: 4px solid black;
+    outline: 2px solid black;
     outline-offset: 0px;
 }
 .slider3:focus-visible ~ .slider-button3 {
-    outline: 4px solid black;
+    outline: 2px solid black;
     outline-offset: 0px;
 }
 
 .slider-line1 {
     position: absolute;
     inset: 0;
-    width: .2rem;
+    width: .1rem;
     height: 100%;
-    background-color: #fff;
+    background-color: var(--slider-color);
     /* z-index: 10; */
     left: var(--position1);
     transform: translateX(-50%);
@@ -335,9 +340,9 @@ img {
 .slider-line2 {
     position: absolute;
     inset: 0;
-    width: .2rem;
+    width: .1rem;
     height: 100%;
-    background-color: #fff;
+    background-color: var(--slider-color);
     /* z-index: 10; */
     left: var(--position2);
     transform: translateX(-50%);
@@ -346,9 +351,9 @@ img {
 .slider-line3 {
     position: absolute;
     inset: 0;
-    width: .2rem;
+    width: .1rem;
     height: 100%;
-    background-color: #fff;
+    background-color: var(--slider-color);
     /* z-index: 10; */
     left: var(--position3);
     transform: translateX(-50%);
@@ -356,8 +361,8 @@ img {
 }
 .slider-button1 {
     position: absolute;
-    background-color: #fff;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
     padding: .5rem;
     border-radius: 100vw;
     display: grid;
@@ -371,8 +376,8 @@ img {
 }
 .slider-button2 {
     position: absolute;
-    background-color: #fff;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
     padding: .5rem;
     border-radius: 100vw;
     display: grid;
@@ -386,8 +391,8 @@ img {
 }
 .slider-button3 {
     position: absolute;
-    background-color: #fff;
-    color: black;
+    background-color: var(--white-color);
+    color: var(--black-color);
     padding: .5rem;
     border-radius: 100vw;
     display: grid;
@@ -407,13 +412,14 @@ img {
     background-color: var(--section3-color);
 }
 #section4 {
-    height: 100vh;
+    height: auto;
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--section4-color);
+    padding: 1rem;
 }
 footer {
-    height: 15vh;
+    height: auto;
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--footer-color);

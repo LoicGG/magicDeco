@@ -72,6 +72,9 @@ font-family: 'Miltonian', serif;
         #462523 100%
         );
     --footerText-Color: rgba(255, 255, 255, 1);
+    --filterParchment: grayscale(0%);
+    --slider-color:#FCFCFC;
+    --slider-arrow:var(--black-color);
 }
 
 .dark {
@@ -100,4 +103,7 @@ font-family: 'Miltonian', serif;
     --specialiste-background-color: rgb(60, 59, 59);
     --ecriture-parchemin: solid black;
     --footerText-Color: rgba(255, 255, 255, 1);
+    --filterParchment: grayscale(100%);
+    --slider-color:#000000;
+    --slider-arrow:var(--black-color);
 }
