@@ -217,47 +217,62 @@ img {
   }
 /*SLIDER DES PHOTOS AVANT-APRES*/
 .sliderContainer1,
-.sliderContainer2 {
+.sliderContainer2,
+.sliderContainer3 {
 }
 .container1 {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     place-content: center;
     position: relative;
     overflow: hidden;
     --position1: 50%;
+    margin: 2rem;
 }
 
 .container2 {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     place-content: center;
     position: relative;
     overflow: hidden;
     --position2: 50%;
+    margin: 2rem;
+}
+
+.container3 {
+    height: 400px;
+    width: 400px;
+    place-content: center;
+    position: relative;
+    overflow: hidden;
+    --position2: 50%;
+    margin: 2rem;
 }
 
 .image-container1,
-.image-container2 {
+.image-container2,
+.image-container3 {
     max-width: 80vw;
     max-height: 80vh;
     aspect-ratio: 1/1;
 }
 
 .slider-image1,
-.slider-image2 {
+.slider-image2,
+.slider-image3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: left;
-    margin: 1rem;
+    
 }
 
 .image-before1 {
     position: absolute;
     inset: 0;
     width: var(--position1);
-    filter: grayscale(100%)
+    filter: grayscale(100%)    /*NOUBLIE PAS DE RETIRER LE FILTRE APRES*/
 }
 
 .image-before2 {
@@ -266,8 +281,15 @@ img {
     width: var(--position2);
 }
 
+.image-before3 {
+    position: absolute;
+    inset: 0;
+    width: var(--position3);
+}
+
 .slider1,
-.slider2 {
+.slider2,
+.slider3 {
     position: absolute;
     inset: 0;
     cursor: pointer;
@@ -275,6 +297,7 @@ img {
     /* for Firefox */
     width: 100%;
     height: 100%;
+    display: grid;
 }
 
 .slider1:focus-visible ~ .slider-button1 {
@@ -282,6 +305,10 @@ img {
     outline-offset: 0px;
 }
 .slider2:focus-visible ~ .slider-button2 {
+    outline: 4px solid black;
+    outline-offset: 0px;
+}
+.slider3:focus-visible ~ .slider-button3 {
     outline: 4px solid black;
     outline-offset: 0px;
 }
@@ -305,6 +332,17 @@ img {
     background-color: #fff;
     /* z-index: 10; */
     left: var(--position2);
+    transform: translateX(-50%);
+    pointer-events: none;
+}
+.slider-line3 {
+    position: absolute;
+    inset: 0;
+    width: .2rem;
+    height: 100%;
+    background-color: #fff;
+    /* z-index: 10; */
+    left: var(--position3);
     transform: translateX(-50%);
     pointer-events: none;
 }
@@ -338,7 +376,21 @@ img {
     /* z-index: 100; */
     box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
 }
-
+.slider-button3 {
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    padding: .5rem;
+    border-radius: 100vw;
+    display: grid;
+    place-items: center;
+    top: 50%;
+    left: var(--position3);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    /* z-index: 100; */
+    box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
+}
 /*FIN DU CODE CONCERNANT LES SLIDERS AVANT - APRES*/
 #section3 {
     height: auto;
