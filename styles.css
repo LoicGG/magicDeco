@@ -255,7 +255,6 @@ img {
 .container1 {
     width: 280px;
     height: 280px;
-    place-content: center;
     position: relative;
     overflow: hidden;
     --position1: 50%;
@@ -437,9 +436,23 @@ img {
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--section3-color);
+    display: flex;
+    flex-direction: column;
 }
 
+.sliderText {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.sliderContainer1,
+.sliderContainer2,
+.sliderContainer3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /***********************************************/
 /***********************************************/
 /******************  BRAYWEB    ****************/
