@@ -212,6 +212,7 @@ nav {
     position: relative; /* absolute si on veut mettre le svg sur les bords */
     display: flex;
     flex-direction: column;
+    max-width: 88vw;
     width: 350px;
     height: auto;
     margin: 1rem;
@@ -294,8 +295,8 @@ img {
 .image-container1,
 .image-container2,
 .image-container3 {
-    max-width: 80vw;
-    max-height: 80vh;
+    /* max-width: 80vw;
+    max-height: 80vh; */
     aspect-ratio: 1/1;
 }
 
