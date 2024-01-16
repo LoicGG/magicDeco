@@ -443,6 +443,7 @@ img {
 .sliderText {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .sliderContainer1,
