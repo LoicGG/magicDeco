@@ -2,8 +2,8 @@
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 550px;
-    padding: 20px;
+    height: auto;
+    padding: 1rem;
     width: 90vw;
     margin: auto;
     margin-top: 4rem;

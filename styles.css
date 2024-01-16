@@ -9,7 +9,9 @@
 font-family: 'Ephesis', cursive;
 font-family: 'Miltonian', serif;
 */
-
+html {
+	scroll-behavior: smooth;
+}
 *, body {
     margin: 0;
     padding: 0;
@@ -21,7 +23,7 @@ font-family: 'Miltonian', serif;
 a, a:visited {
     display: block;
     text-decoration: none;
-    /* color: var(--black-color); */
+    color: var(--black-color);
     text-align: center;/* Centrer les liens dans leur line item */
 }
 
@@ -226,8 +228,8 @@ img {
 }
 
 .container1 {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -240,8 +242,8 @@ img {
 }
 
 .container2 {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -253,8 +255,8 @@ img {
 }
 
 .container3 {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -276,8 +278,8 @@ img {
 .slider-image1,
 .slider-image2,
 .slider-image3 {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
     object-position: left;
 }
