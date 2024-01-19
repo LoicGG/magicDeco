@@ -97,14 +97,13 @@ nav {
     z-index: 2;
 }
 .hero {
-    height: 100vh; 
+    height: 100%; 
     width: 100%;
     /* border: 1px solid rgb(0, 0, 0); */
     /* background-image: var(--image-heroBg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-color: var(--hero-color); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -474,6 +473,7 @@ footer {
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--footer-color);
+    padding-bottom: 1rem;
 }
 
 .footerText {
