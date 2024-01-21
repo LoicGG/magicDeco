@@ -468,6 +468,16 @@ img {
     background-color: var(--section4-color);
     padding: 1rem;
 }
+
+#section5 {
+    height: auto;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: var(--section5-color);
+    padding: 1rem;
+}
+
+
 footer {
     height: auto;
     width: 100%;
