@@ -253,8 +253,8 @@ img {
 }
 
 .container1 {
-    width: 280px;
-    height: 280px;
+    width: 50vw;
+    height: 50vw;
     position: relative;
     overflow: hidden;
     --position1: 50%;
@@ -266,8 +266,8 @@ img {
 }
 
 .container2 {
-    width: 280px;
-    height: 280px;
+    width: 50vw;
+    height: 50vw;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -279,8 +279,8 @@ img {
 }
 
 .container3 {
-    width: 280px;
-    height: 280px;
+    width: 50vw;
+    height: 50vw;
     place-content: center;
     position: relative;
     overflow: hidden;
@@ -302,8 +302,8 @@ img {
 .slider-image1,
 .slider-image2,
 .slider-image3 {
-    width: 280px;
-    height: 280px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: left;
 }
@@ -449,7 +449,7 @@ img {
 .sliderContainer1,
 .sliderContainer2,
 .sliderContainer3 {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
