@@ -5,6 +5,7 @@
     height: auto;
     padding: 1rem;
     width: 90vw;
+    max-width: 600px;
     margin: auto;
     margin-top: 4rem;
     color: var(--black-color);
