@@ -1,2 +1,2 @@
 # magicDeco
-MagicDecoPeintureInterieur
+Magic Deco Peinture Interieure
