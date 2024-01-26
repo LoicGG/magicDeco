@@ -11,13 +11,22 @@ var volet = document.getElementById("volet");
 // Get the button that opens the menu
 var iconX = document.getElementById("iconX");
 
+// Get the X button that closes the menu
+var closeX = document.getElementById("close");
+
 // When the user clicks on the button, open the menu
 iconX.onclick = function () {
   volet.style.left = "0";
 }
 
+// When the user clicks on the button, open the menu
+closeX.onclick = function () {
+  volet.style.left = "-100%";
+}
+
+
 // When menu's open and user clicks outside => closes menu
-window.addEventListener('click', function(e){
+window.addEventListener('click', function(e) {
   if (!document.getElementById('volet').contains(e.target) && (!document.getElementById('iconX').contains(e.target))){
   volet.style.left = "-100%"; //the same code you've used to hide the menu
 } 
