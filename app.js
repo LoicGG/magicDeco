@@ -4,7 +4,6 @@
 /***********************************************/
 /***********************************************/
 
-
 // Get the menu nav to add active to
 var volet = document.getElementById("volet");
 
@@ -31,9 +30,6 @@ window.addEventListener('click', function(e) {
   volet.style.left = "-100%"; //the same code you've used to hide the menu
 } 
 });
-
-
-
 
 
 /***********************************************/
