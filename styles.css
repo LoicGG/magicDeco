@@ -139,7 +139,7 @@ nav {
 }
 
 #magic {
-    content: url(content/Magic.webp);
+    content: url(content/LOIC.webp);
     width: 60vw;
     max-width: 60vh;
     height: auto;
@@ -179,7 +179,7 @@ nav {
 
 
 .exemple1 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: tangerine;
 }
 
