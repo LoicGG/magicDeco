@@ -520,6 +520,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
+input {
+    color: black;
+}
+
 /***********************************************/
 /**************** RESPONSIVE *******************/
 /***************    NAV BAR   ******************/
