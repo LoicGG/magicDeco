@@ -273,13 +273,15 @@ img {
     height: 80vw;
     max-width: 600px;
     max-height: 600px;
-    place-content: center;
+    place-content: relative;
     position: relative;
     overflow: hidden;
     --position2: 50%;
     margin: 2rem;
     border-radius: 50px;
     border: 2px solid var(--white-color);
+    display: flex;
+    text-align: center;
 
 }
 
